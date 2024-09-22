@@ -37,8 +37,10 @@ Foi removido o debug=True do app.py, o que é importante para segurança. Isso v
 
 - Substituído:
 if __name__ == '__main__':
+
 app.run(debug=True)
 
 - Por:
 if __name__ == '__main__':
+
 app.run()
