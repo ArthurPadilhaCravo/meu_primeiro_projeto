@@ -28,3 +28,17 @@ Este é um projeto simples que implementa uma API usando **Flask** (Python) e um
 
    ```bash
    git clone https://github.com/seu_usuario/meu_primeiro_projeto.git
+
+## Segurança da informação
+
+### Exemplo prático
+
+Foi removido o debug=True do app.py, o que é importante para segurança. Isso vai garantir que em produção o modo de depuração não estará habilitado, o que pode expor informações sensíveis.
+
+Substituído:
+if __name__ == '__main__':
+    app.run(debug=True)
+
+Por:
+if __name__ == '__main__':
+    app.run()
