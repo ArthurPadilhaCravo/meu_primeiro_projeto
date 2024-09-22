@@ -35,10 +35,10 @@ Este é um projeto simples que implementa uma API usando **Flask** (Python) e um
 
 Foi removido o debug=True do app.py, o que é importante para segurança. Isso vai garantir que em produção o modo de depuração não estará habilitado, o que pode expor informações sensíveis.
 
-Substituído:
+- Substituído:
 if __name__ == '__main__':
-    app.run(debug=True)
+app.run(debug=True)
 
-Por:
+- Por:
 if __name__ == '__main__':
-    app.run()
+app.run()
