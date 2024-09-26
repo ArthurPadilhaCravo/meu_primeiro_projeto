@@ -14,20 +14,28 @@ Este é um projeto simples que implementa uma API usando **Flask** (Python) e um
 - **JavaScript** (Para comunicação com a API)
 - **HTML e CSS** (Para a estrutura e estilo do frontend)
 
-## Como Rodar o Projeto
+## Instalação
+   - Clone o repositório:
+      git clone https://github.com/ArthurPadilhaCravo/meu_primeiro_projeto.git
+      cd meu_primeiro_projeto
+   - Instale as dependências:
+      pip install -r requirements.txt
+   - Execute o projeto:
+      python app.py
+
+## Uso
+   Acesse http://localhost:5000 no navegador e utilize o sistema de cadastro e login.
+
+## Melhorias Futuras
+   - Implementar verificação de email.
+   - Adicionar uma camada de autenticação JWT.
+   - Melhorar o design da interface web.
 
 ### Requisitos
 
 - **Python 3.x**
 - **Flask** (`pip install flask`)
 - **Flask-CORS** (`pip install flask-cors`)
-
-### Instruções
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/seu_usuario/meu_primeiro_projeto.git
 
 ## Segurança da informação
 
@@ -46,3 +54,6 @@ app.run(debug=True)
 if __name__ == '__main__':
 
 app.run()
+
+## Licença
+Este projeto está sob a licença MIT.
